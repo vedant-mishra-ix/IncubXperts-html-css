@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: black;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        .nav1 {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: lavenderblush;
+            padding: 20px;
+        }
+
+        .nav1 ul {
+            list-style-type: none;
+
+        }
+
+        article {
+
+            float: left;
+            padding: 40px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        footer {
+            background-color: black;
+            padding-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .nav2 {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin-left: 70px;
+        }
+
+        .nav2:hover {
+            background-color: yellowgreen;
+        }
+
+        header nav img {
+            margin-right: 180px;
+        }
+
+        .nav1 ul li a {
+            text-decoration: none;
+            text-transform: uppercase
+        }
+
+        .menu2 {
+            padding-bottom: 500px;
+
+        }
+
+        table {
+            margin: auto;
+
+        }
+
+        input[type='text'] {
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        input[type='submit'] {
+            padding: 10px;
+            border-radius: 10px;
+            width: 200px;
+            background-color: orange;
+            color: red;
+        }
+
+        input[type='submit']:hover {
+            background-color: green;
+            font-size: 25px;
+            border-width: 10px;
+        }
+
+        input[type='text']:hover {
+            border-color: green;
+            border-width: 10px;
+        }
+
+        .nav1 ul li a :hover {
+            background-color: greenyellow;
+            color: red;
+        }
+
+        .thfooter {
+            padding-top: 100px;
+            padding-left: 50px;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="incubxpert.png" width="100px" height="70px">
+            <span><a href="#casestory" class="nav2">Case Stories</a></span>
+            <span><a href="#" class="nav2">Services</a></span>
+            <span><a href="#" class="nav2">Leadership</a></span>
+            <span><a href="#" class="nav2">Blog</a></span>
+            <span><a href="#" class="nav2">Careers</a></span>
+            <span><a href="#" class="nav2">Contact</a></span>
+        </nav>
+    </header>
+    <section>
+        <nav class="nav1">
+            <ul>
+                <li><a href="#" class="menu1">
+                        <h3>Case stories</h3>
+                    </a></li>
+                <li><a href="#" class="menu2">
+                        <h3>Services</h3>
+                    </a></li>
+                <li><a href="#" class="menu3">
+                        <h3>Leadership</h3>
+                    </a></li>
+                <li><a href="#" class="menu4">
+                        <h3>Blog</h3>
+                    </a></li>
+                <li><a href="#" class="menu5">
+                        <h3>Careers</h3>
+                    </a></li>
+                <li><a href="#" class="menu6">
+                        <h3>Contact</h3>
+                    </a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1 id="casestory">Case stories</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus fugit nostrum
+                necessitatibus ea ad qui? Soluta nisi illum, ex ad facilis, illo aspernatur sunt dolores sit quo omnis
+                veniam!</p>
+            <hr>
+            <h1 align="center">Follow</h1>
+            <table>
+                <tr>
+                    <th><input type="text" placeholder="Email"></th>
+                    <th><input type="submit" value="subscribe"></th>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <footer>
+        <nav>
+            <span><a href="#" class="nav2">Case Stories</a></span>
+            <span><a href="#" class="nav2">Services</a></span>
+            <span><a href="#" class="nav2">Leadership</a></span>
+            <span><a href="#" class="nav2">Blog</a></span>
+            <span><a href="#" class="nav2">Careers</a></span>
+            <span><a href="#" class="nav2">Contact</a></span>
+        </nav>
+        <table>
+            <tr>
+                <th class="thfooter">© IncubXperts TechnoConsulting Pvt. Ltd.</th>
+                <th class="thfooter">© IncubXperts TechnoConsulting Pvt. Ltd.</th>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
