@@ -1,0 +1,266 @@
+ .container
+ {
+     position: fixed;
+     top: 0;
+ }
+ .container header
+ {
+     width: 100vw;
+     height: 15vh;
+     background-color:black; 
+     position: relative;
+     position: sticky;
+     top: 0;
+ }
+ .container header nav a
+ {
+text-decoration: none;
+color: white;
+ }
+ .container header nav 
+ {
+     padding-top: 40px;
+margin-left: 700px; 
+ }
+ .a1
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .a2
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .a3
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .a4
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .a5
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .a6
+ {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .img
+ {
+     margin-top: -40px;
+     position:absolute;
+     right: 1110px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 150px;
+     height: 86px;
+ }
+ /* // section */
+ .service
+ {
+     text-align: center;  
+ }
+ .box1
+ {
+     width:307px;
+     height:400px;
+     float: left;
+     border:solid 2px black;
+     background-color: royalblue;
+     margin-left: 90px;
+     margin-right: -8px;
+ }
+ .box2
+ {
+    width:307px;
+    height:400px;
+     float: left;
+     border:solid 2px black;
+     background-color: green;
+     margin-left: 90px;
+     margin-right: -8px;
+ }
+ .box3
+ {
+    width:307px;
+    height:400px;
+     float: left;
+     border:solid 2px black;
+     background-color: green;
+     margin-left: 90px;
+     margin-right: -8px;
+ }
+ .container1 section .box1 .imgsame
+ {
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 24vw;
+     height: 40vh;
+ }
+ .container1 section .box2 .imgsame
+ {
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 24vw;
+     height: 40vh;
+ }
+ .container1 section .box3 .imgsame
+ {
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 24vw;
+     height: 40vh;
+ }
+ .title
+ {
+     text-align: center;
+ }
+ .container1 section
+ {
+     padding-top: 90px;
+ }
+ /* // next button */
+ .container2 
+ {
+     position: absolute;
+     padding-top: 500px;
+ }
+ .container2 .case1
+ {
+     margin-left: 40px;
+     width: 90px;
+     float: left;
+     margin-right: 10px;
+ }
+ .container2 .case2
+ {
+     margin-left: 870px;
+     float: left;
+ }
+ input[type='button']
+ {
+     padding:5px;
+     width: 100px;
+     background-color: orangered;
+     color: white;
+     border-radius: 10px;
+ }
+ /* // container img */
+ .container-img
+ {
+     margin-top: 600px;
+     background-image: url('./Assets/bg1.jpg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-bottom: 200px;
+ }
+ .container-img h1
+ {
+     text-align: center;
+     padding-top: 20px;
+ }
+ .paragraph
+ {
+    padding-top: 100px;
+     max-width: 700px;
+    text-align: left;   
+ }
+   /* // footer */
+   .footer
+  {
+      background-color: black;
+      padding-bottom: 20vh;
+  }
+  .logo1
+  {
+      text-align: center;
+      font-size: 3vw;
+      color: blue;
+      text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+  }   
+  .services
+  {
+    float: left;
+    padding-left: 20vw;
+    color:white;    
+}
+  .About
+  { 
+    float: left;
+      padding-left: 1vw;
+      color:white;
+  }
+  .careers
+  {
+    float: left;
+      padding-left: 1vw;
+      color:white;
+  }
+  .follow
+  {
+      float: left;
+      color:white;
+  }
+  .companyName
+  {
+      margin-top: -5px;
+      padding-left: 150px;
+      text-align: left;
+      color: #FF0000;
+      width: 180px;
+  }
+  .caption
+  {
+      margin-top: -5px;
+      list-style: none;
+      padding-bottom: 8px;
+  }
+  .address
+  {
+      list-style: none;
+      margin-top: -99px;
+      margin-left: 180px;
+      padding-bottom: 10px;
+  }
+  .logo
+ {
+     margin-top: -10px;
+     position:absolute;
+     left:15px;
+     right: 1110px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 150px;
+     height: 100px;
+ }
+ .follow nav ul li, a
+ {
+     text-decoration: none;
+     list-style: none;
+     color: white;
+ }
+ /* // social media logo */
+ .social-media-logo
+ {
+     color: white;
+     background-color: black;
+ }
+ .social-media-logo  table tr th img 
+ {
+     margin-right: 20px;
+background-size: cover;
+background-repeat: no-repeat;
+width: 20px;
+height: 20px;
+ }
+
+
+ 
