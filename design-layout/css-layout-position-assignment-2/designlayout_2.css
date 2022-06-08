@@ -1,3 +1,7 @@
+ body{
+     margin: auto;
+
+ }
  .container
  {
      position: fixed;
@@ -6,7 +10,7 @@
  .container header
  {
      width: 100vw;
-     height: 15vh;
+     height: 20vh;
      background-color:black; 
      position: relative;
      position: sticky;
@@ -16,89 +20,98 @@
  {
 text-decoration: none;
 color: white;
+font-size: 1.5vw;
  }
  .container header nav 
  {
-     padding-top: 40px;
-margin-left: 700px; 
+     padding-top: 7vh;
+margin-left: 50vw; 
+padding-bottom: 8vh;
  }
  .a1
  {
-     padding-left: 10px;
-     padding-right: 10px;
+     padding-left: 1vw;
+     padding-right: 1vw;
  }
  .a2
  {
-     padding-left: 10px;
-     padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
  }
  .a3
  {
-     padding-left: 10px;
-     padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
  }
  .a4
  {
-     padding-left: 10px;
-     padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
  }
  .a5
  {
-     padding-left: 10px;
-     padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
  }
  .a6
  {
-     padding-left: 10px;
-     padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
  }
  .img
  {
-     margin-top: -40px;
+     margin-top: -1vh;
      position:absolute;
-     right: 1110px;
+     right: 85vw;
      background-size: cover;
      background-repeat: no-repeat;
-     width: 150px;
-     height: 86px;
+     width: 13vw;
+     height: 10vh;
  }
  /* // section */
  .service
  {
+     padding-top: 3vh;
      text-align: center;  
+     font-size: 1.6vw;
+ }
+ .case-story
+ {
+     font-size: 1.6vw;
  }
  .box1
  {
-     width:307px;
-     height:400px;
+     border-radius: 2vw;
+     width:24vw;
+     height:80vh;
      float: left;
-     border:solid 2px black;
-     background-color: royalblue;
-     margin-left: 90px;
+     margin-left: 7vw;
      margin-right: -8px;
+     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  .box2
  {
-    width:307px;
-    height:400px;
-     float: left;
-     border:solid 2px black;
-     background-color: green;
-     margin-left: 90px;
+    border-radius: 2vw;
+    width:24vw;
+    height:80vh;
+     float: left; 
+     margin-left: 7vw;
      margin-right: -8px;
+     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  .box3
  {
-    width:307px;
-    height:400px;
+    border-radius: 2vw;
+    width:24vw;
+    height:80vh;
      float: left;
-     border:solid 2px black;
-     background-color: green;
-     margin-left: 90px;
+     margin-left: 7vw;
      margin-right: -8px;
+     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  .container1 section .box1 .imgsame
  {
+    border-radius: 2vw;
      background-size: cover;
      background-repeat: no-repeat;
      width: 24vw;
@@ -106,6 +119,7 @@ margin-left: 700px;
  }
  .container1 section .box2 .imgsame
  {
+    border-radius: 2vw;
      background-size: cover;
      background-repeat: no-repeat;
      width: 24vw;
@@ -113,6 +127,7 @@ margin-left: 700px;
  }
  .container1 section .box3 .imgsame
  {
+    border-radius: 2vw;
      background-size: cover;
      background-repeat: no-repeat;
      width: 24vw;
@@ -121,6 +136,12 @@ margin-left: 700px;
  .title
  {
      text-align: center;
+     font-size: 1.5vw;
+ }
+ .content
+ {
+     text-align:center;
+     font-size: 1.3vw;
  }
  .container1 section
  {
@@ -134,23 +155,25 @@ margin-left: 700px;
  }
  .container2 .case1
  {
-     margin-left: 40px;
-     width: 90px;
+     margin-left: 1vw;
+     width: 5vw;
      float: left;
-     margin-right: 10px;
+     margin-right: 5vw;
  }
  .container2 .case2
  {
-     margin-left: 870px;
+     margin-left: 60vw;
      float: left;
  }
  input[type='button']
  {
-     padding:5px;
-     width: 100px;
+     padding:1vw;
+     width: 10vw;
+     height: 10vh;
      background-color: orangered;
+     border: none;
      color: white;
-     border-radius: 10px;
+     font-size: 1.4vw;
  }
  /* // container img */
  .container-img
@@ -177,7 +200,7 @@ margin-left: 700px;
    .footer
   {
       background-color: black;
-      padding-bottom: 20vh;
+      padding-bottom: 10vh;
   }
   .logo1
   {
@@ -189,63 +212,72 @@ margin-left: 700px;
   .services
   {
     float: left;
-    padding-left: 20vw;
+    padding-left: 17vw;
     color:white;    
+    font-size: 1.2vw;
 }
   .About
   { 
     float: left;
       padding-left: 1vw;
       color:white;
+      font-size: 1.2vw;
   }
   .careers
   {
     float: left;
       padding-left: 1vw;
       color:white;
+      font-size: 1.2vw;
   }
   .follow
   {
+    padding-left: 1vw;
       float: left;
       color:white;
+      font-size: 1.2vw;
   }
-  .companyName
+  .companyName 
   {
-      margin-top: -5px;
-      padding-left: 150px;
+      float: left;
+     margin-top: -1vh;
+      padding-left: 3vw;
       text-align: left;
       color: #FF0000;
-      width: 180px;
+      width: 15vw;
+      font-size: 1.2vw;
   }
   .caption
   {
       margin-top: -5px;
       list-style: none;
       padding-bottom: 8px;
+      font-size: 1.2vw;
   }
   .address
   {
       list-style: none;
-      margin-top: -99px;
-      margin-left: 180px;
+      margin-left: 17vw;
       padding-bottom: 10px;
+      font-size: 1.2vw;
   }
   .logo
  {
      margin-top: -10px;
      position:absolute;
-     left:15px;
-     right: 1110px;
+     
+     right: 84vw;
      background-size: cover;
      background-repeat: no-repeat;
-     width: 150px;
-     height: 100px;
+     width: 13vw;
+     height: 15vh;
  }
- .follow nav ul li, a
+ .follow  ul li  a
  {
      text-decoration: none;
      list-style: none;
      color: white;
+     font-size: 1.2vw;
  }
  /* // social media logo */
  .social-media-logo
@@ -255,11 +287,11 @@ margin-left: 700px;
  }
  .social-media-logo  table tr th img 
  {
-     margin-right: 20px;
+     padding-left: 3.5vw;
 background-size: cover;
 background-repeat: no-repeat;
-width: 20px;
-height: 20px;
+width: 2vw;
+height: 4vh;
  }
 
 
