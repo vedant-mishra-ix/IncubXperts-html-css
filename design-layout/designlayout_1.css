@@ -1,0 +1,148 @@
+.container header
+{
+    padding-bottom: 20px;
+    background-color: black;
+}
+.container header table tr th
+{
+    /* border:solid 2px black; */
+}
+.container header table{
+    /* border-collapse: collapse; */
+}
+.logo
+{
+    padding-left: 60px;
+    padding-right: 80px;
+    
+}
+.logo img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 170px;
+    width: 150px;
+    height: 100px;
+    
+}
+.prf
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.username
+{
+    padding-left: 472px;
+    padding-right: 20px;
+    color: white;
+}
+
+.profile
+{
+     padding-left: 10px;
+
+}
+
+.container1
+{
+    float: left;
+    background-color: black;
+    padding-bottom: 4.5vh;
+    padding-left: 70px;
+    padding-right: 80px;
+    color:white
+}
+
+.container1 nav ul li 
+{
+    padding-top: 50px;
+    padding-bottom:30px ;
+    font-size: 20px;
+}
+
+
+.container2
+{
+    margin-top: -20px;
+    
+    padding-bottom: 82px;
+
+    
+}
+
+.container2 section h1
+{
+    text-align: center;
+    padding-top: 20px;
+}
+#line
+{
+    background-color: black;
+    /* border: 1px solid; */
+}
+
+.container2 section  .item
+{
+    border: solid 2px black;
+    
+
+}
+.container2 section  .item img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+
+}
+.title
+{
+     
+    float: right;
+   
+    padding-right: 308px;
+    margin-right: 5px;
+    padding-left: 310px;
+    font-size: 19px;
+    /* border-style: ridge; */
+    /* border-color: black; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+}
+.title1
+{
+    position: absolute;
+    float: right;
+    margin-top: -240px;
+  margin-left: 560px;
+  margin-right: 16px;
+    font-size: 19px;
+    /* border-style: ridge;
+    border-color: black; */
+    
+}
+.container2  a
+{
+    
+    position: absolute;
+    bottom:0;
+    left: 1100px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashbordLayout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>css website layout assignment-3.1</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./Assest/incubxpert.png">
+        </div>
+        <div class="menu-logo">
+            <li class="fa fa-bars"></li>
+        </div>
+        <div class="right-logo">
+            <img src="./Assest/incubxpert.png">
+        </div>
+        <div class="right-small-logo">
+            <img src="./Assest/incubxpert.png">
+            <p class="dot">.</p>
+        </div>
+        <div class="right-drop">
+            <select id="" style="border:none ;background-color:skyblue;">
+                <option value="volvo" class="drop-down">Privider & admin</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+    </div>
+    <div class="section">
+        <div class="sidebar">
+            <ul>
+                <li id="dashboard-content">
+                    <span class="fa fa-tachometer" id="dashboard-item"></span>
+                    Dashboard
+                </li>
+                <li><span class="fa fa-smile-o"></span>Menu item2</li>
+                <li><span class="fa fa-smile-o"></span>Menu item3</li>
+                <li><span class="fa fa-smile-o"></span>Menu item3</li>
+            </ul>
+        </div>
+        <div class="section-content">
+            <div class="section-header">
+                <h1 class="dash">Dashboard</h1>
+                <p class="home-link">Home</p>
+                <div class="section-header-logo">
+                    <img src="./Assest/incubxpert.png">
+                </div>
+                <div class="section-header-logo1">
+                    <img src="./Assest/incubxpert.png">
+                </div>
+                <div class="section-header-logo1">
+                    <img src="./Assest/incubxpert.png">
+                </div>
+                <div class="section-content-button">
+                    <div class="button">
+                        <button>In Progress</button>
+                    </div>
+                    <div class="button">
+                        <button>Completed</button>
+                    </div>
+                    <div class="button">
+                        <button>All</button>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="section-dropdown">
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Type</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Classification</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Progress</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Days since notified</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Category</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">status</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="">
+                            <option value="volvo" class="section-drop-down">Medium of Recall</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="" class="clear-all-filter">
+                            <option value="volvo" class="clear-all-filter">Clear All Filters</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="" class="sort-drop-down">
+                            <option value="volvo" class="sort-drop-down">Sort by</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="section-cards">
+                    <div class="section-cards-box">
+                        <div class="card-bg1">
+                            <li class="	fa fa-envelope-o"></li>
+                            <span class="section-cards-caption">AKNOWLEDGED</span>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <span class="section-cards-caption1">URGENT</span>
+                        </div>
+                        <p class="cards-font1">
+                            <b>09/06/2022</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>SUP_TEST3</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>qa_12345</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>Recall Id:</b>
+                            <small>abcdefghij</small>
+                        </p>
+                        <span class="fa fa-spinner" id="icons">
+                            <p class="progress">Progress</p>
+                        </span>
+                        <span class="icons-right">
+                            <p class="cards-font">2</p>
+                            <p class="cards-font">09/06/2022</p>
+                            <p class="cards-font">Days Since Notified</p>
+                        </span>
+                        <p>
+                        <ul class="card-bg2">
+                            <li class="cards-font"><b>Sites-1</b></li>
+                            <li class="cards-font">
+                                <b>Category- </b>
+                                <span class="item1">Blood Products</span>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            <span class="fa fa-group">
+                                <small>Not yet classified</small>
+                            </span>|
+                            <span class="fa fa-group">
+                                <small>Removal</small>
+                            </span>
+                        </p>
+                        <p><input type="button" value="View"></p>
+                        <hr class="card-line">
+                    </div>
+                    <div class="section-cards-box">
+                        <div class="card-bg1">
+                            <li class="	fa fa-envelope-o"></li>
+                            <span class="section-cards-caption1">URGENT</span>
+                        </div>
+                        <p class="cards-font1">
+                            <b>09/06/2022</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>SUP_TEST3</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>qa_12345</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>Recall Id: </b>
+                            <small>abcdefghij</small>
+                        </p>
+                        <span class="fa fa-spinner" id="icons">
+                            <p class="progress">Progress</p>
+                        </span>
+                        <span class="icons-right">
+                            <p class="cards-font">2</p>
+                            <p class="cards-font">09/06/2022</p>
+                            <p class="cards-font">Days Since Notified</p>
+                        </span>
+                        <p>
+                        <ul class="card-bg2">
+                            <li class="cards-font1"><b>Sites-1</b></li>
+                            <li class="cards-font1">
+                                <b>Category- </b>
+                                <span class="item1">Blood Products</span>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            <span class="fa fa-group">
+                                <small>Not yet classified</small>
+                            </span>|
+                            <span class="fa fa-group">
+                                <small>Removal</small>
+                            </span>
+                        </p>
+                        <p><input type="button" value="View"></p>
+                        <hr class="card-line">
+                    </div>
+                    <div class="section-cards-box">
+                        <div class="card-bg1">
+                            <li class="fa fa-bookmark"></li>
+                            <span class="section-cards-caption">AKNOWLEDGED</span>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <span class="section-cards-caption1">URGENT</span>
+                        </div>
+                        <p class="cards-font1">
+                            <b>09/06/2022</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>SUP_TEST3</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>qa_12345</b>
+                        </p>
+                        <p class="cards-font1">
+                            <b>Recall Id: </b>
+                            <small>abcdefghij</small>
+                        </p>
+                        <span class="fa fa-spinner" id="icons">
+                            <p class="progress">Progress</p>
+                        </span>
+                        <span class="icons-right">
+                            <p class="cards-font">2</p>
+                            <p class="cards-font">09/06/2022</p>
+                            <p class="cards-font">Days Since Notified</p>
+                        </span>
+                        <p>
+                        <ul class="card-bg2">
+                            <li class="cards-font1">
+                                <b>Sites-1</b>
+                            </li>
+                            <li class="cards-font1">
+                                <b>Category- </b>
+                                <span class="item1">Blood Products</span>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            <span class="fa fa-group">
+                                <small>Not yet classified</small>
+                            </span>|
+                            <span class="fa fa-group">
+                                <small>Removal</small>
+                            </span>
+                        </p>
+                        <p><input type="button" value="View"></p>
+                        <hr class="card-line">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
