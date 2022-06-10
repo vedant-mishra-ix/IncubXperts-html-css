@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="client-form-css.css">
+    <title>Client information form layout</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img class="comp-logo" src="./com-logo.jpg" ></a><span id="line">|</span>
+            <a href="">Accounts</a>
+            <a href="">Clients</a>
+            <a href="">Documents</a>
+            <a href="">Reports</a>
+            <select>
+                <option>Accounting</option>
+            </select>
+            <select>
+                <option>Definitions</option>
+            </select>
+        </nav>
+        <div class="nav-logo">
+                <li class="fa fa-sort-desc first-icon"></li>
+                <li class="fa fa-user-circle fourth-icon"></li>
+                <li id="logo-line">|</li>
+                <li class="fa fa-question-circle second-icon"></li>
+                <li class="fa fa-plus-circle third-icon"></li>
+        </div>
+    </header>
+    <div class="second-header">
+        <nav>
+            <li><a href=""><small>Clients</small></a></li>
+            <li><small>/ Add New Clients</small></li>
+        </nav>
+        <p class="heading">Add New Client - vbhg</p>
+    </div>
+    <hr class="second-header-line">
+    <section>
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <p class="list-caption">Contact</p>
+                <ul class="list-style">
+                    <li>Client Information</li>
+                    <li>Main Point of contact</li>
+                </ul>
+                <p class="list-caption">Setting</p>
+                <ul class="list-style">
+                    <li>Accounting Configuration</li>
+                    <li>Bank Accounts</li>
+                    <li>Costs & Fees</li>
+                    <li>Invoices</li>
+                    <li>PIF Options</li>
+                    <li>Filling and Judgement Automation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-content">
+            <form>
+                <h1>Clent Information</h1>
+                <div>
+                    <p>Indicate if the client is a business or individual</p>
+                    <input type="radio" name="sex" value="business" id="B"><label for="B">Business</label>
+                    <input type="radio" name="sex" value="individual" id="I"><label for="I">Individual</label>
+                    <hr>
+                </div>
+                <div>
+                    <p>Enter the client's name</p>
+                    <p><label for="clientName">Client name <span>*</span></label></p>
+                    <p><label for="doingBusiness">Doing Business As</label></p>
+                    <input type="text" name="clientName" id="clientName" placeholder="Enter client name"> 
+                    <input type="text" name="doingBusiness"  id="doingBusiness" placeholder="Enter DBA or ficitious name"> 
+                    <hr>
+                </div>
+                <div>
+                    <p>Create a client ID, enter their FEIN, and select client type</p>
+                    <p><label for="clientID">Client ID (Limit of 10 Characters) <span>*</span></label></p>
+                    <p><label for="doingBusiness">FEIN</label></p>
+                    <p><label for="clientID">Client Type <span>*</span></label></p>
+                    <input type="text" name="clientID" id="clientId" placeholder="Enter client ID"> 
+                    <input type="text" name="doingBusiness"  id="doingBusiness" placeholder="Enter FEIN"> 
+                    <select>
+                        <option>select-type</option>
+                    </select>
+                    <hr>
+                </div>
+                <div>
+                    <p>Assign to one or more sets.Use sets to group like clients together and pull reports for all clients in that set.(optional)</p>
+                    <p><label for="clientSetCode">Client Set Code<span>*</span></label></p>
+                    <select id="clientSetCode">
+                        <option>Select client set code</option>
+                    </select>
+                    <input type="submit" value="Manage Codes">
+                    <hr>
+                </div>
+                <div>
+                    <p>Enter address(optional).More addresses can be saved as additional contacts</p>
+                    <p><label for="address">Attention</label></p>
+                    <input type="text" name="address" id="address" placeholder="Enter address">
+                </div>
+                <div>
+                    <p><label for="streetAddress">Street Address</label></p>
+                    <input type="text" name="streetAddress" id="streetAddress" placeholder="Enter street address">
+                </div>
+                <div>
+                    <p><label for="building">Street Address</label></p>
+                    <input type="text" name="building" id="building" placeholder="Enter apartment, suite, unit, floor, building, etc.">
+                </div>
+                <div>
+                    <p><label for="pincode">Zip Code/Postal Code</label></p>
+                    <p><label for="city">City</label></p>
+                    <input type="text" name="pincode" id="pincode" placeholder="000000"> 
+                    <input type="text" name="city"  id="city" placeholder="Enter City">
+                </div>
+                <div>
+                    <p><label for="state">State/Province</label></p>
+                    <p><label for="country">Country</label></p>
+                    <input type="text" name="state" id="state" placeholder="Enter state/province"> 
+                    <select name="country"  id="country">
+                        <option>select country</option>
+                    </select>
+                </div>
+                <div>
+                    <p><label for="timeZone">Time Zone</label></p>
+                    <select id="timeZone">
+                        <option>Select time zone</option>
+                    </select>
+                    <hr>
+                </div>
+                <div>
+                    <p>Choose pre-set color(optional)</p>
+                    <p>Assigning colors to your clients can help to visually group them together or quickly distinguish them from one another</p>
+                    <p>Pre-set Colors</p>
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <input type="checkbox" value="green"> 
+                    <hr>
+                </div>
+                <div>
+                    <p>Enter notes(optional)</p>
+                    <p><label for="notes">notes</label></p>
+                    <textarea placeholder="Enter any comments or notes" id="notes"></textarea>
+                    <hr>
+                </div>
+                <div>
+                    <p>Enter additional information by creating your own fields for client accounts(optional)</p>
+                    <p><label for="userField">Custom User Field</label></p>
+                    <input type="text" name="userField" id="userField">
+                </div>
+            </form>
+            <hr>
+            <div class="anchor-tag">
+                <a href="#">Clear Page</a>
+                <a href="#">Next</a>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
