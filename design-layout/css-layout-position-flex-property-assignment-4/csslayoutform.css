@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+}
+.section
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sidebar
+{
+    background-color: aliceblue;
+    height:100vh;
+    width: auto;
+}
+.img-logo img
+{
+    margin-left: 25%;
+    width:50%;
+    padding-top: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+.powered-by
+{
+    padding-top: 15vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-logo-powered img
+{
+    margin-top: -5%;
+    margin-left:39%;
+    width: 20%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+}
+.section-content
+{
+    margin-top: 5%;
+    margin-right: 15%;
+    width: calc(100% - auto);
+}
+input[type='text']
+{
+    width: 95%;
+    padding: 2.3%;
+    border-radius:1vw;
+    background-color: aliceblue;
+}
+input[type='button']
+{
+    margin-top: 6%;
+    width: 100%;
+    padding: 3.6%;
+    border-radius:1vw;
+    background-color:rgb(84, 205, 84);
+    font-weight: bolder;
+}
+.input-label
+{
+    line-height: 5%;
+}
+.form-note
+{
+    font-size: 1vw;
+    text-align: center;
+}
+#form-note-height
+{
+    margin-top: -2%;
+}
+.input-field
+{
+font-family: 'Segoe UI', FontAwesome;
+font-size: 20px;
+}
+#input-field-id
+{
+    font-family: 'Segoe UI', FontAwesome; 
+}
+.asterik
+{
+    color: red;
+}
+.form-caption
+{
+    font-size: 4vw;
+    font-weight: bolder;
+}
+.form-sub-caption
+{
+    margin-bottom: 9%;
+}

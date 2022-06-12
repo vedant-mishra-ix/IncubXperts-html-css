@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="client-form-css.css">
+    <title>Client information form layout</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img class="comp-logo" src="./Assets/com-logo.jpg" ></a><span id="line">|</span>
+            <a href="">Accounts</a>
+            <a href="">Clients</a>
+            <a href="">Documents</a>
+            <a href="">Reports</a>
+            <select>
+                <option>Accounting</option>
+            </select>
+            <select>
+                <option>Definitions</option>
+            </select>
+        </nav>
+        <div class="nav-logo">
+                <li class="fa fa-sort-desc first-icon"></li>
+                <li class="fa fa-user-circle fourth-icon"></li>
+                <li id="logo-line">|</li>
+                <li class="fa fa-question-circle second-icon"></li>
+                <li class="fa fa-plus-circle third-icon"></li>
+        </div>
+    </header>
+    <div class="second-header">
+        <nav>
+            <li><a href=""><small>Clients</small></a></li>
+            <li><small>/ Add New Clients</small></li>
+        </nav>
+        <p class="heading">Add New Client - vbhg</p>
+    </div>
+    <progress id="file" value="12" max="100"></progress>
+    <section>
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <p class="list-caption">Contact</p>
+                <ul class="list-style">
+                    <li class="list-style-item">Client Information</li>
+                    <li class="list-style-item">Main Point of contact</li>
+                </ul>
+                <p class="list-caption">Setting</p>
+                <ul class="list-style">
+                    <li class="list-style-item">Accounting Configuration</li>
+                    <li class="list-style-item">Bank Accounts</li>
+                    <li class="list-style-item">Costs & Fees</li>
+                    <li class="list-style-item">Invoices</li>
+                    <li class="list-style-item">PIF Options</li>
+                    <li class="list-style-item">Filling and Judgement Automation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-content">
+            <form>
+                <h1>Clent Information</h1>
+                <div class="business-radio-button">
+                    <p class="content-size">Indicate if the client is a business or individual</p>
+                    <input type="radio" name="sex" value="business" id="B"><label for="B" class="content-size" id="radio-content">Business</label>
+                    <input class="individual" type="radio" name="sex" value="individual" id="I"><label for="I" class="content-size" id="radio-content">Individual</label>
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Enter the client's name</p>
+                    <span class="content-size"><label for="clientName">Client name <span class="field-required">*</span></label></span>
+                    <span class="content-size" id="client-business"><label for="doingBusiness">Doing Business As</label></span><br>
+                    <input type="text" name="clientName" id="clientName" placeholder="Enter client name"> 
+                    <input type="text" name="doingBusiness"  id="doingBusiness" placeholder="Enter DBA or ficitious name"> 
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Create a client ID, enter their FEIN, and select client type</p>
+                    <span class="content-size"><label for="clientID">Client ID (Limit of 10 Characters) <span class="field-required">*</span></label></span>
+                    <span class="content-size" id="client-fein"><label for="fein">FEIN</label></span>
+                    <span class="content-size" id="client-client-id"><label for="clientID">Client Type <span class="field-required">*</span></label></span><br>
+                    <input type="text" name="clientID" id="clientId" placeholder="Enter client ID"> 
+                    <input class="input-field" type="text" name="fein"  id="fein" placeholder="&#xf06e;&nbsp;Enter FEIN"> 
+                    <select class="client-select">
+                        <option>select-type</option>
+                    </select>
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Assign to one or more sets.Use sets to group like clients together and pull reports for all clients in that set.(optional)</p>
+                    <div class="client-color">
+                    <p class="content-size"><label for="clientSetCode">Client Set Code<span>*</span></label></p>
+                    <select id="clientSetCode">
+                        <option>Select client set code</option>
+                    </select>
+                    <input class="input-field" type="submit" id="manage-button" value="&#xf013;&nbsp;EnterManage Codes">
+                    </div>
+                </div>
+                <hr class="section-line">
+                <div>
+                    <p class="content-size">Enter address(optional).More addresses can be saved as additional contacts</p>
+                    <p class="content-size"><label for="address">Attention</label></p>
+                    <input type="text" name="address" id="address" placeholder="Enter address">
+                </div>
+                <div>
+                    <p class="content-size"><label for="streetAddress">Street Address</label></p>
+                    <input type="text" name="streetAddress" id="streetAddress" placeholder="Enter street address">
+                </div>
+                <div>
+                    <p class="content-size"><label for="building">Street Address</label></p>
+                    <input type="text" name="building" id="building" placeholder="Enter apartment, suite, unit, floor, building, etc.">
+                </div>
+                <div class="zip-codes">
+                    <span class="content-size" id="zip-code"><label for="pincode">Zip Code/Postal Code</label></span>
+                    <span class="content-size" id="zip-city"><label for="city">City</label></span><br>
+                    <input type="text" name="pincode" id="pincode" placeholder="000000"> 
+                    <input type="text" name="city"  id="city" placeholder="Enter City">
+                </div>
+                <div class="state-country">
+                    <span class="content-size"><label for="state">State/Province</label></span>
+                    <span class="content-size" id="country-field"><label for="country">Country</label></span><br>
+                    <input type="text" name="state" id="state" placeholder="Enter state/province"> 
+                    <select name="country"  id="country">
+                        <option>select country</option>
+                    </select>
+                </div>
+                <div class="country-color">
+                    <p class="content-size"><label for="countryCode">Country Code</label></p>
+                    <select id="countryCode">
+                        <option>Select country code</option>
+                    </select>
+                    <input class="input-field" type="submit" id="manage-button" value="&#xf013;&nbsp;Manage Codes">
+                </div>
+                <hr class="section-line">
+                <div>
+                    <p class="content-size"><label for="timeZone">Time Zone</label></p>
+                    <select id="timeZone">
+                        <option>Select time zone</option>
+                    </select>
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Enter a website link(optional)</p>
+                    <p class="content-size"><label for="address">Website Link</label></p>
+                    <input type="url" name="url" id="url" placeholder="Enter url">
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Choose pre-set color(optional)</p>
+                    <p class="content-size">Assigning colors to your clients can help to visually group them together or quickly distinguish them from one another</p>
+                    <div class="check-color">
+                    <p class="content-size">Pre-set Colors</p>
+                    <input type="checkbox" value="green" id="green"> 
+                    <input type="checkbox" value="green" id="yellow"> 
+                    <input type="checkbox" value="green" id="blue"> 
+                    <input type="checkbox" value="green" id="pink"> 
+                    <input type="checkbox" value="green" id="red"> 
+                    <input type="checkbox" value="green" id="black"> 
+                    <input type="checkbox" value="green" id="purple"> 
+                    <input type="checkbox" value="green" id="white"> 
+                    <input type="checkbox" value="green" id="brown"> 
+                    <input type="checkbox" value="green" id="slice"> 
+                    <input type="checkbox" value="green" id="navy">
+                    </div> 
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Enter notes(optional)</p>
+                    <p class="content-size"><label for="notes">Notes</label></p>
+                    <textarea placeholder="Enter any comments or notes" id="notes"></textarea>
+                    <hr class="section-line">
+                </div>
+                <div>
+                    <p class="content-size">Enter additional information by creating your own fields for client accounts(optional)</p>
+                    <p class="content-size"><label for="userField">Custom User Field</label></p>
+                    <input type="text" name="userField" id="userField">
+                </div>
+            </form>
+            <hr class="section-line">
+            <div class="anchor-tag">
+                <a href="#" class="clear-page-button">Clear Page</a>
+                <a href="#" class="next-page-button">Next<i class="fa fa-fighter-jet" id="next-logo-icon"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

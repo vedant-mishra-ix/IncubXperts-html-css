@@ -1,0 +1,130 @@
+body
+{
+margin: 0;
+}
+.header
+{
+    background-image: url('./Assets/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    opacity:.8
+}
+.local-content
+{
+    margin-left: 15vw;
+    margin-top: 35vh;
+    width: 30vw;
+    color: white;  
+
+}
+
+.local-content p{
+    color:white;
+}
+.bold
+{
+    font-size: 3vw;
+    font-weight: bolder;
+}
+.italic
+{
+    margin-top: -2vh;
+    font-size: 2vw;
+    font-style: italic;
+}
+.contact
+{ 
+    font-size: 2vw;
+}
+.free-trial-form
+{
+    border-radius: 2vw;
+    height: 50vh;
+    margin-right: 15vw;
+    margin-top: 25vh;
+    width: 30vw;
+    background-color:white;
+    color: black;
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.9), 0 60px 200px 0 rgb(232, 232, 234);
+}
+
+.free-trial-form form span{
+    color: black ;
+}
+
+.form-caption
+{
+    font-size: 1.6vw;
+    font-weight: bold;
+    padding-left: 5vw;
+}
+.input-name
+{
+    font-size: 1.6vw;
+   padding-right: 16vw;
+}
+.privacy
+{
+    font-size: 1.6vw;
+    
+}
+input[type='text']
+{
+    width: 18vw;
+    padding:.8vw;
+    border-radius: 2vw;
+}
+input[type='submit']
+{
+    margin-top: 1vh;
+    padding: .8vw;
+    width: 20vw;
+    border-radius: 2vw;
+}
+input[type='text']:hover
+{
+    border-color: green;
+    border: 2px solid;
+    border-width: .4vw;
+}
+
+input[type='submit']:hover
+{
+    background-color: rgba(176, 47, 159, 0.947);
+    border-color: green;
+    border: 2px solid;
+    border-width: .4vw;
+}
+.section
+{
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items
+{
+     
+}
+
+.font-icons
+{
+    font-size: 5vw;
+    padding-left: 10vw;
+}
+.items-caption
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.6vw;
+}
+.items-content{
+    text-align: justify;
+    font-size: 1.4vw;
+}

@@ -1,0 +1,368 @@
+body
+{
+    margin:0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(5, 5, 75);
+}
+.nav-logo li
+{
+    float: right;
+}
+.comp-logo
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:7%;
+    height: 80%;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: -12px;
+}
+header nav a
+{
+    margin-top: -12vh;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4vw;
+    margin-left: 1vw;
+}
+header nav
+{
+    margin-left: 1vw;
+}
+header nav select
+{
+    border: none;
+    background-color:rgb(5, 5, 75);
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+}
+#line
+{
+    color: white;
+}
+.nav-logo
+{
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.first-icon , .second-icon , .third-icon ,.fourth-icon
+{
+    padding-left: 10px;
+    color: white;
+}
+.fourth-icon
+{
+    font-size: 20px;
+}
+#logo-line
+{
+    list-style: none;
+    padding-left: 10px;
+}
+.second-header nav
+{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.second-header nav li
+{
+    padding-right:5px;
+    list-style: none;
+    float: left;
+}
+.heading
+{
+    padding-left: 10%;
+    padding-top: 1%;
+    clear: both;
+    font-size: 30px;
+    font-weight:bold;
+}
+.second-header-line
+{
+    padding: 2px;
+    background-color: rgb(181, 190, 200);
+}
+section
+{
+    margin-top:-5px;
+    display: flex;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+}
+.sidebar
+{
+    background-color:beige
+}
+.sidebar-content
+{
+    margin-top:8vh;
+    padding-left: 10%;
+}
+.list-style
+{
+    list-style-type: circle;
+    font-size: 1.4vw;
+}
+.list-style-item
+{
+    padding-top: 3vh;
+}
+.section-content
+{
+    margin-right: 19%;
+}
+.section-line
+{
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+.list-caption
+{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.anchor-tag
+{
+    float: right;
+}
+.content-size
+{
+    font-size: 1vw;
+}
+.business-radio-button .individual
+{
+margin-left: 5%;
+}
+input[type='radio']
+{
+    transform: scale(1.4);
+    accent-color: green;
+}
+#radio-content
+{
+    padding-left: 10px;
+}
+input[name='clientName'] , input[name='doingBusiness']
+{
+    padding-left:6.1vw;
+    padding-right:6.1vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    background-color: lavender;
+}
+#client-business
+{
+    padding-left: 38%;
+}
+.field-required
+{
+    color: red;
+    font-weight: bolder;
+}
+input[name='clientID'] , input[name='fein']
+{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    background-color: lavender;
+}
+.client-select
+{
+    padding-left: 3vw;
+    padding-right:3vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+#client-fein
+{
+padding-left: 7%;
+}
+#client-client-id
+{
+    padding-left: 32%; 
+}
+#clientSetCode
+{
+    padding-left: 11.3vw;
+    padding-right: 11.3vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+#manage-button
+{
+    padding-left: 2.3vw;
+    padding-right:2.3vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+input[name='address'],input[name='streetAddress'],input[name='building'] 
+{
+    padding-left: 18.3vw;
+    padding-right: 18.3vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+input[name='pincode'] , input[name='city']
+{
+    padding-left: 6.1vw;
+    padding-right: 6.1vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    background-color: lavender;
+}
+.zip-codes
+{
+    margin-top: 2%;
+}
+#zip-city
+{
+    padding-left: 31%;
+}
+.state-country
+{
+    margin-top: 2%;
+}
+input[name='state']
+{
+    padding-left: 6.1vw;
+    padding-right: 6.1vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    background-color: lavender;
+}
+#country
+{
+    padding-left:8.1vw;
+    padding-right:8.1vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+#country-field
+{
+    padding-left: 38%;
+}
+#countryCode
+{
+    padding-left: 12.7vw;
+    padding-right: 12.7vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+#timeZone
+{
+    padding-left:19.6vw;
+    padding-right:19.6vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+input[name='url']
+{
+    padding-left: 18.2vw;
+    padding-right: 18.2vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+input[type='checkbox']
+{
+    transform: scale(1.5);
+}
+textarea{
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+    resize: none;
+}
+input[name='userField']
+{
+    padding-left:18.2vw;
+    padding-right:18.2vw;
+    padding-top: .6vw;
+    padding-bottom:.6vw;
+    border-radius: 7px;
+    border:1px solid black;
+    background-color: lavender;
+}
+.anchor-tag
+{
+margin-right: 1vw;
+}
+ 
+.next-page-button
+{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 1vw;
+    padding-top: 5px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    background-color: greenyellow;
+}
+#next-logo-icon
+{
+    margin-left: 5px;
+}
+.check-color
+{
+    background-color:lavender;
+    padding-bottom: 5vh;
+}
+.country-color
+{
+    background-color: lavender;
+    padding-bottom: 5vh;
+}
+.client-color
+{
+    background-color: lavender;
+    padding-bottom: 5vh;
+}
+#file
+{
+    width: 98.5vw;
+}
+.input-field
+{
+font-family: 'Segoe UI', FontAwesome;
+}
