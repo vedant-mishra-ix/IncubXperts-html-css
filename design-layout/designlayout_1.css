@@ -1,0 +1,113 @@
+.container header
+{
+    padding-bottom: 20px;
+    background-color: black;
+}
+.logo
+{
+    padding-left: 60px;
+    padding-right: 80px;
+}
+.logo img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 170px;
+    width: 150px;
+    height: 100px;  
+}
+.prf
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;  
+}
+.username
+{
+    padding-left: 472px;
+    padding-right: 20px;
+    color: white;
+}
+.profile
+{
+     padding-left: 10px;
+}
+.sidebar
+{
+    float: left;
+    background-color: black;
+    padding-bottom: 4.5vh;
+    padding-left: 70px;
+    padding-right: 80px;
+    color:white
+}
+.sidebar nav ul li 
+{
+    padding-top: 50px;
+    padding-bottom:30px ;
+    font-size: 20px;
+}
+.container-section
+{
+    margin-top: -20px;
+    padding-bottom: 82px;   
+}
+.container-section section h1
+{
+    text-align: center;
+    padding-top: 20px;
+}
+#line
+{
+    background-color: black;
+}
+.container-section section  .item
+{
+    border: solid 2px black;
+}
+.container-section section  .item img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+.title
+{
+    float: right;
+    padding-right: 30%;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+}
+.title1
+{
+    position: absolute;
+    float: right;
+    margin-top: -17%;
+  margin-left: 40%;
+  margin-right: 2%;
+    font-size: 1.2rem;
+}
+.container-section  a
+{  
+    position: absolute;
+    bottom:0;
+    left: 1100px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+

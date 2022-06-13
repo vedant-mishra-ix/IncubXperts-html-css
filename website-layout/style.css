@@ -1,0 +1,189 @@
+ .header nav a
+ {
+     text-decoration: none;
+     margin-left: 2vw;
+     padding: 1.9vw;
+     font-size: 1.5vw;
+     color:white;
+     padding-top: 1vw;
+     padding-bottom: 1vw;
+     
+      
+ }
+ .header nav a:hover
+ {
+   background-color: aqua;
+     
+      
+ }
+ .header nav{
+     margin-left: 21vw;
+     
+    
+ }
+ .header{
+     background-color:rgba(0,0,0,.5);
+     padding-top: 1vh;
+     padding-bottom: 5vh;
+     position: fixed;
+     top: 0;
+     width: 100vw;
+     
+     
+      
+     }
+
+     .img
+     {
+         background-image: url('./incubxpert.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         width: 100px;
+         height: 80px;
+     }
+
+  .logo
+  {
+      font-size: 3vw;
+      color: blue;
+      text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+  }   
+  .logo:hover
+  {
+      font-size: 5vw;
+     
+  } 
+
+  .bg1
+  {
+      background-image: url('./bg1.jpg');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 80vh;
+  }
+
+     /* sidebar menu */
+
+   .sidebarMenu
+   {
+       margin-top: -20px;
+       float: left;
+       background-color:rgba(0,0,0,.5);
+       padding-bottom: 36vh;
+   }
+   .sidebarMenu nav  li ,a
+   {
+       list-style-type: none;
+       text-decoration: none;
+       font-size: 1.8vw;
+       margin-left: 3vw;
+       padding-right: 1.7vw;
+       padding-top: 10vh;
+       color: white;
+   }
+   
+   .section
+   {
+    margin-left: 19.2vw;   
+    
+   
+   }
+    
+
+   table{
+       padding-top: 2vh;
+       padding-bottom: 18vh;
+       margin: auto;
+       
+       
+   }
+
+   input[type='text']
+   {
+       padding: .8vw;
+       border-radius: 10px;
+       padding-bottom: 3vh;
+       margin-bottom: 3vh;
+   }
+   input[type='text']:hover
+   {
+        border-color: green;
+        border-width: .3vw;
+   }
+
+   input[type='email']
+   {
+       padding: .8vw;
+       border-radius: 10px;
+       padding-bottom: 3vh;
+       margin-bottom: 3vh;
+   }
+
+   input[type='email']:hover
+   {
+        border-color: green;
+        border-width: .3vw;
+   }
+   input[type='submit']
+   {
+       padding: .8vw;
+       width: 25vw;
+       
+       border-radius: 10px;
+       padding-bottom: 3vh;
+       margin-bottom: 3vh;
+       background-color:lightseagreen;
+       color:brown ;
+       font-size: 18px;
+   }
+   .heading
+   {
+       padding-right: 6vw;
+       padding-bottom: 4vh;
+   }
+  /* Footer css */
+  .foot
+  {
+      padding-top: 2vh;
+      background-color: black;
+      padding-bottom: 20vh;
+  }
+
+  .logo1
+  {
+      text-align: center;
+      font-size: 3vw;
+      color: blue;
+      text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+  }   
+  .services
+  {
+    float: left;
+    padding-left: 7vw;
+    color:white;
+      
+}
+  .About
+  { 
+    float: left;
+      padding-left: 7vw;
+      color:white;
+  }
+
+  .careers
+  {
+    float: left;
+      padding-left: 7vw;
+      color:white;
+  }
+  .follow
+  {
+      float: left;
+      padding-left: 7vw;
+      color:white;
+  }
+  .companyName
+  {
+      color: #FF0000;
+  }
