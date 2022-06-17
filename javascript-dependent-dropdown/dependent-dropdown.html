@@ -38,17 +38,17 @@
                     </div>
                 </div>  
                 <div class="row pb-3">
-                    <span id="State_"></span>
+                    <span id="Country_"></span>
                     <div class="col">
-                        <select name="state" id="state" class="form-control" onkeydown="countryfield()" onkeyup="countryfield()">
+                        <select name="country" id="country" class="form-control" onkeydown="countryfield()" onkeyup="countryfield()">
                             <option value="">select country</option>
                         </select>
                     </div>
                 </div>
                 <div class="row pb-3">
-                    <span id="Country_"></span>
+                    <span id="State_"></span>
                     <div class="col">
-                        <select name="country" id="country"  class="form-control">
+                        <select name="state" id="state"  class="form-control" onkeydown="statefield()" onkeyup="statefield()">
                             <option value="" >select state</option>
                         </select>
                     </div>
@@ -56,14 +56,19 @@
                 <div class="row pb-3">
                     <span id="City_"></span>
                     <div class="col">
-                        <select name="city" id="city" class="form-control">
+                        <select name="city" id="city" class="form-control" onkeydown="cityfield()" onkeyup="cityfield()">
                             <option value="" >select city</option>
                         </select>
                     </div>
                 </div>
                 <div class="row pb-3">
                     <div class="col">
-                        <input type="button" value="submit" onclick="return submit13();">
+                        <input type="button" value="submit" class="btn btn-primary w-100" onclick="return submit13();">
+                    </div>
+                </div> 
+                <div class="row pb-3">
+                    <div class="col">
+                        <input type="reset" value="reset" class="btnm btn-primary w-100">
                     </div>
                 </div>  
             </form>

@@ -10,9 +10,9 @@
  
 </head>
 <body>
-    <div class="container">
-        <div class="form w-25 mt-2  float-end">
-            <form action="#" method="post" >
+    <div class="container d-flex flex-w">
+        <div class="form w-25 mt-2 ">
+            <form>
                 <div class="row pb-3">
                     <span id="first_name"></span>
                     <div class="col">
@@ -51,6 +51,7 @@
                     <span id="State_"></span>
                     <div class="col">
                         <select name="state" id="state"  class="form-control" onchange="droplist1(this.id,'city')" onkeydown="statefield()" onkeyup="statefield()">
+                            <option value="">-state-</option>
                         </select>
                     </div>
                 </div>
@@ -58,14 +59,25 @@
                     <span id="City_"></span>
                     <div class="col">
                         <select name="city" id="city" class="form-control" onkeydown="cityfield()" onkeyup="cityfield()">
+                            <option value="">-city-</option>
                         </select>
                     </div>
                 </div>
                 <div class="row pb-3">
                     <div class="col">
-                        <input type="button" value="submit" class="btnm btn-primary w-100" onclick="submit12()">
+                        <input type="button" value="submit" class="btnm btn-primary w-100" onclick="submit_second()" >
                     </div>
                 </div>  
+                <div class="row pb-3">
+                    <div class="col">
+                        <input type="reset" value="reset" class="btnm btn-primary w-100">
+                    </div>
+                </div> 
+                <div class="row pb-3">
+                    <div class="col">
+                        <input type="button" value="delete" class="btnm btn-danger w-100" onclick="delete_second()">
+                    </div>
+                </div> 
             </form>
         </div>
         <div class="tabl mt-5 w-25">
@@ -83,7 +95,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr></tr>
+                  <tr id="row"></tr>
                 </tbody>
               </table>
         </div>

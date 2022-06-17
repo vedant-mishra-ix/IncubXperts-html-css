@@ -76,13 +76,10 @@ function emailfield()
         return true;
     }
 }
-
-
-
 var stateObject = {
     "India": {
-        "Mumbai": ["Bandra", "Goregaon", "Marin Lines"],
-        "Pune": ["Lal Mahal", "Hinjawadi"],
+        "maharastra": ["Bandra", "Goregaon", "Marin Lines"],
+        "up": ["knapur", "lucknow"],
 		"Delhi":["Gurugram", "Karol Bagh"]
     },
     "United States": {
@@ -95,34 +92,38 @@ var stateObject = {
     }
 }
 window.onload = function(){
-	var country12 = document.getElementById("country"),
+	var country = document.getElementById("country"),
 	state = document.getElementById("state"),
 	city = document.getElementById("city");	
-	for (var state1 in stateObject){
-		state.options[state.options.length] = new Option(state1,state1);
+	for (var country1 in stateObject){
+		country.options[country.options.length] = new Option(country1);
 	}
-	state.onchange = function(){
-		for(var country1 in stateObject[this.value]){
-			country12.options[country12.options.length] = new Option(country1,country1);
+	country.onchange = function(){
+        state.length=1;
+        city.length=1;
+		for(var state1 in stateObject[this.value]){
+			state.options[state.options.length] = new Option(state1);
 		}
 	}
-	country12.onchange = function(){		
-		var cities = stateObject[state.value][this.value];
-		for(var i = 0; i < cities.length; i++){
-			city.options[city.options.length] = new Option(cities[i],cities[i]);
+    country.onchange();
+	state.onchange = function(){		
+        city.length=1;
+		var city = stateObject[state.value][this.value];
+		for(var i = 0; i < city.length; i++){
+			city.options[city.options.length] = new Option(city[i]);
 		}
 	}
 }
 var row_count=1;
 function submit13()
 {
-    var firstname = document.getElementById('firstName').value;
-    var lastname = document.getElementById('lastName').value;
-    var age = document.getElementById('age').value;
-    var email = document.getElementById('email').value;
-    var country = document.getElementById('state').value;
-    var state1 = document.getElementById('country').value;
-    var city1 = document.getElementById('city').value;
+    let firstname = document.getElementById('firstName').value;
+    let lastname = document.getElementById('lastName').value;
+    let age = document.getElementById('age').value;
+    let email = document.getElementById('email').value;
+    let country = document.getElementById('country').value;
+    let state1 = document.getElementById('state').value;
+    let city1 = document.getElementById('city').value;
 
     if(firstname =="" || lastname =="" || age =="" || email =="" || country =="" || state1 =="" || city1 =="")
     {
@@ -198,7 +199,7 @@ window.onload = function dumy_data_load()
 }
 function countryfield()
 {
-    var country = document.getElementById('state').value;
+    let country = document.getElementById('country').value;
     if(country == '')
     {
         document.getElementById('Country_').innerHTML="This field is required";
@@ -212,7 +213,7 @@ function countryfield()
 }
 function statefield()
 {
-    var state = document.getElementById('state').value;
+    let state = document.getElementById('state').value;
     if(state == '')
     {
         document.getElementById('State_').innerHTML="This field is required";
@@ -226,7 +227,7 @@ function statefield()
 }
 function cityfield()
 {
-    var city = document.getElementById('city').value;
+    let city = document.getElementById('city').value;
     if(city == '')
     {
         document.getElementById('City_').innerHTML="This field is required";

@@ -53,7 +53,7 @@ function droplist1(third,fourth)
     }
 }
 var row_count = 1;
-function submit12()
+function submit_second()
 {
 var firstname = document.getElementById("firstName").value;
 var lastname = document.getElementById("lastName").value;
@@ -75,6 +75,8 @@ if(firstname =="" || lastname =="" || age =="" || email =="" || country =="" || 
 }
 else
 {
+    if(row_count <=1)
+    {
     var table = document.getElementById("table");
     var row = table.insertRow(row_count);
     var first_cell = row.insertCell(0);
@@ -94,9 +96,15 @@ else
     seven_cell.innerHTML = state;
     eight_cell.innerHTML = city;
     row_count++;
+    }
     return true;
 }
 }
+// function delete_second()
+// {
+//     var row = document.getElementById("row");
+//     row.deleteCell(5);
+// }
 window.onload = function dumy_data_load()
 {
     var table = document.getElementById("table");
