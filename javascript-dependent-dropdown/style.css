@@ -1,0 +1,39 @@
+#first_name
+{
+    color: red;
+    font-weight: bold;
+}
+#last_name
+{
+    color: red;
+    font-weight: bold;
+}
+#Age
+{
+    color: red;
+    font-weight: bold;
+}
+#Email
+{
+    color: red;
+    font-weight: bold;
+}
+#Country_
+{
+    color: red;
+    font-weight: bold;
+}
+#State_
+{
+    color: red;
+    font-weight: bold;
+}
+#City_
+{
+    color: red;
+    font-weight: bold;
+}
+.form
+{
+    margin-right: 20%;
+}
